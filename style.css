@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color:white
+    }
+img{
+    scale: 50;
+}
+justify-flex{
+    justify-content: flex-start;
+    flex-direction:row;
+}
+h1{
+    text-align:center;
+}
+p{ 
+    height: fit-content;
+
+}
+
+
+
+
