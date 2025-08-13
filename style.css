@@ -5,6 +5,7 @@ body{
 img{
     scale: 50;
 }
+
 justify-flex{
     justify-content: flex-start;
     flex-direction:row;
@@ -14,8 +15,8 @@ h1{
 }
 p{ 
     height: fit-content;
-
 }
+/*scale imgs and align text /* 
 
 
 
