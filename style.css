@@ -1,21 +1,36 @@
 body{
     text-align: center;
+    
     background-color:white
     }
 img{
-    scale: 50;
+    height: 30;
+    width:20;
+    object-fit: contain;
 }
 
 justify-flex{
-    justify-content: flex-start;
-    flex-direction:row;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
 }
+/*center-text*/
 h1{
     text-align:center;
-}
+}/*set columns for img*/
 p{ 
     height: fit-content;
 }
+
+/*set class for buttons*/
+.next-button{
+    float:end;
+}
+.English-button,
+.Spanish-button{
+    float:start;
+}    
+
 /*scale imgs and align text /* 
 
 
