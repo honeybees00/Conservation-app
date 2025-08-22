@@ -1,1 +1,1 @@
-SetProperty("conservation-app",VideoColorSpace,blue);
+SetProperty("conservation-app",VideoColorSpace,red);
