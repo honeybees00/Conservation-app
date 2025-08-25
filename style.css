@@ -1,9 +1,32 @@
 .my-container{
     max-width: 500px;
 }   
-
+document.getElementById()
 /*scale imgs and align text /*
  
+
+
+
+const audio = new Audio("sound.mp3");
+audio.play();
+audio.pause();
+audio.loop = true;
+// Event handling
+const languageBtn = document.getElementById("languageBtn");
+if (languageBtn) {
+    languageBtn.addEventListener("click", toggleLanguage);
+}
+// Property setting
+const bottleChoice = document.getElementById("bottleChoice");
+if (bottleChoice) {
+    bottleChoice.style.backgroundColor = "green";
+}
+
+// Text setting
+const message = document.getElementById("message");
+if (message) {
+    message.textContent = "Great choice!";
+}
 
 
 

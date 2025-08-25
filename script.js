@@ -26,6 +26,7 @@ audio.play();
 // Get element by ID
 const element = document.getElementById("myId");
 
+
 // Get element by CSS selector
 const element = document.querySelector(".myClass");
 const elements = document.querySelectorAll(".myClass");
@@ -37,7 +38,8 @@ element.addEventListener("click", function() {
 
 // Remove event listener
 element.removeEventListener("click", handlerFunction);
-
+document.getElementById();
+addEventListener();
 // Text content
 element.textContent = "New text";
 
