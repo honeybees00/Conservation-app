@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <head>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const message = document.getElementById("message");
+      if (message) {
+        message.textContent = "Great choice!";
+      }
+    });
+  </script>
+</head>
+<body>
+  <p id="message">Original text</p>
+</body>
+
     <!-- Bootstrap -->
     >
     <link
@@ -53,5 +67,6 @@
     <script src="shower-screen.js"></script>
     <script src="helpers.js"></script>
     <script src="script.js"></script>
+    
   </body>
 </html>

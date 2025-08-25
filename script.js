@@ -3,75 +3,57 @@ setProperty("bottleChoice", "backgroundColor", "green");
 setText("message", "Great choice!");
 playSound("success.mp3");
 
-// Event handling
+// Language button
 const languageBtn = document.getElementById("languageBtn");
 if (languageBtn) {
-    languageBtn.addEventListener("click", toggleLanguage);
-}
-// Property setting
-const bottleChoice = document.getElementById("bottleChoice");
-if (bottleChoice) {
-    bottleChoice.style.backgroundColor = "green";
+  languageBtn.addEventListener("click", toggleLanguage);
 }
 
-// Text setting
+// Bottle choice styling
+const bottleChoice = document.getElementById("bottleChoice");
+if (bottleChoice) {
+  bottleChoice.style.backgroundColor = "green";
+}
+
+// Message text
 const message = document.getElementById("message");
 if (message) {
-    message.textContent = "Great choice!";
+  message.textContent = "Great choice!";
 }
 
 // Sound playing
 const audio = new Audio("success.mp3");
 audio.play();
+
 // Get element by ID
-const element = document.getElementById("myId");
+const myElement = document.getElementById("myId");
 
-
-// Get element by CSS selector
-const element = document.querySelector(".myClass");
-const elements = document.querySelectorAll(".myClass");
+// Get elements by CSS selector
+const oneElement = document.querySelector(".myClass");
+const allElements = document.querySelectorAll(".myClass");
 
 // Add event listener
-element.addEventListener("click", function() {
+if (myElement) {
+  myElement.addEventListener("click", function() {
     console.log("Clicked!");
-});
+  });
+}
 
-// Remove event listener
-element.removeEventListener("click", handlerFunction);
-document.getElementById();
-addEventListener();
-// Text content
-element.textContent = "New text";
+// Example input element
+const inputElement = document.getElementById("inputElement");
+if (inputElement) {
+  inputElement.value = "New value";
+}
 
-// HTML content
-element.innerHTML = "<strong>Bold text</strong>";
+// Text & HTML content
+if (myElement) {
+  myElement.textContent = "New text";
+  myElement.innerHTML = "<strong>Bold text</strong>";
+}
 
-// Input values
-inputElement.value = "New value";
-// Text content
-element.textContent = "New text";
-
-// HTML content
-element.innerHTML = "<strong>Bold text</strong>";
-
-// Input values
-inputElement.value = "New value";
-// Individual properties
-element.style.color = "red";
-element.style.backgroundColor = "blue";
-
-// Multiple properties
-element.style.cssText = "color: red; background-color: blue;";
-
-// CSS classes
-element.classList.add("highlight");
-element.classList.remove("highlight");
-element.classList.toggle("highlight");
-element.classList.add("highlight");
-element.classList.remove("highlight");
-element.classList.toggle("highlight");
-// Create and play audio
-const audio = new Audio("sound.mp3");
-audio.play();
-audio.pause();
-audio.loop = true;
+// Style changes
+if (myElement) {
+  myElement.style.color = "red";
+  myElement.style.backgroundColor = "blue";
+  myElement.classList.add("highlight");
+}
