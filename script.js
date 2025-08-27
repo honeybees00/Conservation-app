@@ -1,10 +1,10 @@
-onEvent("languageBtn", "click", toggleLanguage);
+onEvent("my-button", "click", toggleLanguage);
 setProperty("bottleChoice", "backgroundColor", "green");
 setText("message", "Great choice!");
 playSound("success.mp3");
 
 // Language button
-const languageBtn = document.getElementById("languageBtn");
+const mybutton = document.getElementById("languageBtn");
 if (languageBtn) {
   languageBtn.addEventListener("click", toggleLanguage);
 }
@@ -57,3 +57,5 @@ if (myElement) {
   myElement.style.backgroundColor = "blue";
   myElement.classList.add("highlight");
 }
+
+
