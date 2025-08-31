@@ -1,3 +1,4 @@
+console.log ("helpers.js");
 // @ts-nocheck
 /**
  * helpers.js
