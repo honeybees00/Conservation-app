@@ -15,3 +15,8 @@ onEvent("esButton", "click", function () {
     setText("WaterAppHeader", "consejos de Conservacion del Aqua");
     setText("subHeader", "Para conservar el agua es importante que todos pongamos de nuestra parte. Haz clic en esta aplicación para ver ideas de cómo hacerlo.");
 });
+onEvent("button", "click", function () {\
+    document.getElementById("clicked Home.")
+    console.log("clicked home.");
+   
+});
